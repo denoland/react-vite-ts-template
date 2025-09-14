@@ -1,8 +1,8 @@
-import { assertEquals, assertExists } from "jsr:@std/assert";
-import { afterAll, beforeAll, describe, it } from "jsr:@std/testing/bdd";
-import { expect } from "jsr:@std/expect";
-import { Application } from "jsr:@oak/oak/application";
-import { Router } from "jsr:@oak/oak/router";
+import { assertEquals, assertExists } from "@std/assert";
+import { afterAll, beforeAll, describe, it } from "@std/testing/bdd";
+import { expect } from "@std/expect";
+import { Application } from "@oak/oak/application";
+import { Router } from "@oak/oak/router";
 
 import { app } from "./main.ts";
 import routeStaticFilesFrom from "./util/routeStaticFilesFrom.ts";
